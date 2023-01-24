@@ -22,6 +22,19 @@ print(str[1:4])
 
 print(str[2:6])
 
-# スライス　省略
+# スライス 省略
 print("04myls"[:3])
+
+# 書式化演算子
+name = "04myls"
+old = 22
+print("名前は%-8sです。年齢は%03d歳です。"% (name,old))
+
+# リストの文字列の連結
+print("".join(["04","my","ls"]))
+
+# formatメソッド
+name = "04myls"
+old = 22
+print("名前は{:<8s}です。年齢は{:>3d}歳です。".format(name,old))
 
