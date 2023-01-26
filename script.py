@@ -38,3 +38,23 @@ name = "04myls"
 old = 22
 print("名前は{:<8s}です。年齢は{:>3d}歳です。".format(name,old))
 
+# if文 基本形
+value = int(input('1～5の数を入力してください'))
+if value == 1:
+    print('1です')
+
+# if else
+value = int(input('1～5の数を入力してください'))
+if value == 1:
+    print('1です')
+else:
+    print('1ではありません')
+
+# if elif else
+value = int(input('1～5の数を入力してください'))
+if value == 1:
+    print('1です')
+elif value == 2:
+    print('2です')
+else:
+    print('1でも2でもありません')
