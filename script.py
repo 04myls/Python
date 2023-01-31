@@ -58,3 +58,20 @@ elif value == 2:
     print('2です')
 else:
     print('1でも2でもありません')
+
+
+# 小文字に変換
+print("04MYLS".lower())
+
+#　大文字に変換
+print("04myls".upper())
+
+# 先頭を大文字にして、それ以降を小文字
+print("hello world".capitalize())
+
+# 単語毎に最初の文字を大文字
+print("hello world".title())
+
+# 大文字を小文字に、小文字を大文字に変換
+print("04Myls".swapcase())
+
