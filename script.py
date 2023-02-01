@@ -59,7 +59,6 @@ elif value == 2:
 else:
     print('1でも2でもありません')
 
-
 # 小文字に変換
 print("04MYLS".lower())
 
@@ -74,3 +73,13 @@ print("hello world".title())
 
 # 大文字を小文字に、小文字を大文字に変換
 print("04Myls".swapcase())
+
+# 全ての文字が小文字かどうか
+print("myls".islower())
+
+print("Myls".islower())
+
+# 全ての文字が大文字かどうか
+print("MYLS".isupper())
+
+print("Myls".isupper())
